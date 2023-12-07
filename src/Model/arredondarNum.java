@@ -8,7 +8,7 @@ public class arredondarNum {
         if(num1>=0){
             return((num1+num3)/num2)*num2;
         }else {
-            return(num1/num2)*num2;
+            return(num1/num2)*num2+num2;
         }
     }
 }
